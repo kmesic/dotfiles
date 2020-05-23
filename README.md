@@ -26,6 +26,20 @@ Alternatively, to update while avoiding the confirmation prompt:
 sh bootstrap.sh -f
 ```
 
+## Updating the dotfiles repo
+
+If you add a new package via brew or modify a alias in the ~/.config directory, you will want to update your dotfiles repo. To do so execute the update script in any directory.
+
+```bash
+sh bin/update.sh
+```
+
+Alternatively, to update while avoiding the confirmation prompt:
+
+```bash
+sh bin/update.sh -f
+```
+
 ## Feedback
 
 Suggestions/improvements
