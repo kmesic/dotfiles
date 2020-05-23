@@ -23,17 +23,13 @@ sh bootstrap.sh
 Alternatively, to update while avoiding the confirmation prompt:
 
 ```bash
-set -- -f; source bootstrap.sh
+sh bootstrap.sh -f
 ```
 
 ## Feedback
 
 Suggestions/improvements
 [welcome](https://github.com/kmesic/dotfiles/issues)!
-
-## Author
-
-| [![twitter/dev__ken](http://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](http://twitter.com/dev__ken "Follow @dev__ken on Twitter") |
 
 
 ## Thanks to…
