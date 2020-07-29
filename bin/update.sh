@@ -21,7 +21,7 @@ function update() {
     cp -r ~/.config .
 
     # Copy gpg config (used for signing commits)
-    cp ~/.gnupg/gpg-agent.conf .
+    cp ~/.gnupg/gpg-agent.conf ./.gnupg
 
     # Go back to directory that we started in
     cd "$initDir";
